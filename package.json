@@ -4,7 +4,9 @@
   "description": "Waren's Universal Discord Rules (WUDR) official website.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/WarenGonzaga/wudr-site/issues"
   },
-  "homepage": "https://github.com/WarenGonzaga/wudr-site#readme"
+  "homepage": "https://github.com/WarenGonzaga/wudr-site#readme",
+  "dependencies": {
+    "next": "^10.0.9",
+    "raw-loader": "^4.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-markdown": "^5.0.3",
+    "sass": "^1.32.8"
+  }
 }
