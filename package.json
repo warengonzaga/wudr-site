@@ -1,0 +1,25 @@
+{
+  "name": "wudr-site",
+  "version": "1.0.0-alpha.1",
+  "description": "Waren's Universal Discord Rules (WUDR) official website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarenGonzaga/wudr-site.git"
+  },
+  "keywords": [
+    "discord",
+    "rules",
+    "website",
+    "javascript"
+  ],
+  "author": "Waren Gonzaga",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/WarenGonzaga/wudr-site/issues"
+  },
+  "homepage": "https://github.com/WarenGonzaga/wudr-site#readme"
+}
