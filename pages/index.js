@@ -5,7 +5,7 @@ export async function getStaticProps() {
     const fs = require("fs");
   
     const files = fs.readdirSync(`${process.cwd()}`, "utf-8");
-    const rules = files.filter((fn) => fn.endsWith(".md"));
+    const rules = files.filter((fn) => fn.match("RULES.md"));
   
     const data = rules.map((rule) => {
       const path = `${process.cwd()}/${rule}`;
@@ -24,7 +24,7 @@ export async function getStaticProps() {
   }
 
 const Index = ({data}) => {
-  const rules = data[1]
+  const rules = data[0]
       return (
         <>
           <Head>
